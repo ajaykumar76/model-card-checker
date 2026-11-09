@@ -1,0 +1,725 @@
+{
+ "elements": [
+  "intended_use",
+  "out_of_scope",
+  "limitations",
+  "bias_risks",
+  "training_data",
+  "evaluation",
+  "compute_env",
+  "contact"
+ ],
+ "labels": [
+  {
+   "id": "FacebookAI/roberta-large",
+   "split": "dev",
+   "labels": {
+    "intended_use": 1,
+    "out_of_scope": 1,
+    "limitations": 1,
+    "bias_risks": 1,
+    "training_data": 1,
+    "evaluation": 1,
+    "compute_env": 1,
+    "contact": 0
+   },
+   "borderline": [
+    "out_of_scope"
+   ]
+  },
+  {
+   "id": "sentence-transformers/all-MiniLM-L12-v2",
+   "split": "dev",
+   "labels": {
+    "intended_use": 1,
+    "out_of_scope": 0,
+    "limitations": 1,
+    "bias_risks": 0,
+    "training_data": 1,
+    "evaluation": 0,
+    "compute_env": 1,
+    "contact": 0
+   },
+   "borderline": [
+    "limitations"
+   ]
+  },
+  {
+   "id": "Qwen/Qwen3-VL-2B-Instruct",
+   "split": "dev",
+   "labels": {
+    "intended_use": 0,
+    "out_of_scope": 0,
+    "limitations": 0,
+    "bias_risks": 0,
+    "training_data": 0,
+    "evaluation": 0,
+    "compute_env": 0,
+    "contact": 0
+   },
+   "borderline": [
+    "intended_use",
+    "training_data",
+    "evaluation"
+   ]
+  },
+  {
+   "id": "Qwen/Qwen2.5-Coder-7B-Instruct",
+   "split": "dev",
+   "labels": {
+    "intended_use": 1,
+    "out_of_scope": 0,
+    "limitations": 0,
+    "bias_risks": 0,
+    "training_data": 1,
+    "evaluation": 0,
+    "compute_env": 0,
+    "contact": 0
+   },
+   "borderline": [
+    "intended_use",
+    "limitations",
+    "training_data",
+    "evaluation"
+   ]
+  },
+  {
+   "id": "openai/clip-vit-base-patch16",
+   "split": "dev",
+   "labels": {
+    "intended_use": 1,
+    "out_of_scope": 1,
+    "limitations": 1,
+    "bias_risks": 1,
+    "training_data": 1,
+    "evaluation": 1,
+    "compute_env": 0,
+    "contact": 1
+   },
+   "borderline": [
+    "evaluation"
+   ]
+  },
+  {
+   "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
+   "split": "dev",
+   "labels": {
+    "intended_use": 1,
+    "out_of_scope": 1,
+    "limitations": 1,
+    "bias_risks": 1,
+    "training_data": 0,
+    "evaluation": 0,
+    "compute_env": 0,
+    "contact": 0
+   },
+   "borderline": []
+  },
+  {
+   "id": "coqui/XTTS-v2",
+   "split": "dev",
+   "labels": {
+    "intended_use": 1,
+    "out_of_scope": 0,
+    "limitations": 0,
+    "bias_risks": 0,
+    "training_data": 0,
+    "evaluation": 0,
+    "compute_env": 0,
+    "contact": 1
+   },
+   "borderline": [
+    "intended_use"
+   ]
+  },
+  {
+   "id": "intfloat/multilingual-e5-large-instruct",
+   "split": "dev",
+   "labels": {
+    "intended_use": 0,
+    "out_of_scope": 0,
+    "limitations": 1,
+    "bias_risks": 0,
+    "training_data": 1,
+    "evaluation": 0,
+    "compute_env": 0,
+    "contact": 0
+   },
+   "borderline": [
+    "intended_use",
+    "training_data",
+    "evaluation"
+   ]
+  },
+  {
+   "id": "nvidia/bigvgan_v2_22khz_80band_256x",
+   "split": "dev",
+   "labels": {
+    "intended_use": 0,
+    "out_of_scope": 0,
+    "limitations": 0,
+    "bias_risks": 0,
+    "training_data": 1,
+    "evaluation": 0,
+    "compute_env": 0,
+    "contact": 0
+   },
+   "borderline": [
+    "intended_use",
+    "training_data",
+    "compute_env"
+   ]
+  },
+  {
+   "id": "lmstudio-community/Qwen3.8-27B-MLX-6bit",
+   "split": "dev",
+   "labels": {
+    "intended_use": 0,
+    "out_of_scope": 0,
+    "limitations": 1,
+    "bias_risks": 1,
+    "training_data": 0,
+    "evaluation": 0,
+    "compute_env": 0,
+    "contact": 1
+   },
+   "borderline": [
+    "intended_use",
+    "limitations",
+    "bias_risks",
+    "contact"
+   ]
+  },
+  {
+   "id": "lmstudio-community/Qwen3.8-27B-MLX-8bit",
+   "split": "test",
+   "labels": {
+    "intended_use": 0,
+    "out_of_scope": 0,
+    "limitations": 1,
+    "bias_risks": 1,
+    "training_data": 0,
+    "evaluation": 0,
+    "compute_env": 0,
+    "contact": 1
+   },
+   "borderline": [
+    "intended_use",
+    "limitations",
+    "bias_risks",
+    "contact"
+   ]
+  },
+  {
+   "id": "iitolstykh/mivolo_v2",
+   "split": "test",
+   "labels": {
+    "intended_use": 1,
+    "out_of_scope": 0,
+    "limitations": 0,
+    "bias_risks": 0,
+    "training_data": 0,
+    "evaluation": 1,
+    "compute_env": 0,
+    "contact": 0
+   },
+   "borderline": [
+    "intended_use",
+    "training_data"
+   ]
+  },
+  {
+   "id": "pyannote/wespeaker-voxceleb-resnet34-LM",
+   "split": "test",
+   "labels": {
+    "intended_use": 1,
+    "out_of_scope": 0,
+    "limitations": 0,
+    "bias_risks": 0,
+    "training_data": 0,
+    "evaluation": 0,
+    "compute_env": 0,
+    "contact": 0
+   },
+   "borderline": [
+    "intended_use",
+    "training_data"
+   ]
+  },
+  {
+   "id": "facebook/wav2vec2-base-960h",
+   "split": "test",
+   "labels": {
+    "intended_use": 1,
+    "out_of_scope": 0,
+    "limitations": 0,
+    "bias_risks": 0,
+    "training_data": 1,
+    "evaluation": 1,
+    "compute_env": 0,
+    "contact": 0
+   },
+   "borderline": [
+    "limitations"
+   ]
+  },
+  {
+   "id": "Qwen/Qwen2.5-1.5B-Instruct",
+   "split": "test",
+   "labels": {
+    "intended_use": 0,
+    "out_of_scope": 0,
+    "limitations": 0,
+    "bias_risks": 0,
+    "training_data": 0,
+    "evaluation": 0,
+    "compute_env": 0,
+    "contact": 0
+   },
+   "borderline": [
+    "intended_use",
+    "evaluation"
+   ]
+  },
+  {
+   "id": "Xenova/bge-base-en-v1.5",
+   "split": "test",
+   "labels": {
+    "intended_use": 1,
+    "out_of_scope": 0,
+    "limitations": 0,
+    "bias_risks": 0,
+    "training_data": 0,
+    "evaluation": 0,
+    "compute_env": 0,
+    "contact": 0
+   },
+   "borderline": [
+    "intended_use"
+   ]
+  },
+  {
+   "id": "Comfy-Org/Wan-2.2",
+   "split": "test",
+   "labels": {
+    "intended_use": 0,
+    "out_of_scope": 0,
+    "limitations": 0,
+    "bias_risks": 0,
+    "training_data": 0,
+    "evaluation": 0,
+    "compute_env": 0,
+    "contact": 0
+   },
+   "borderline": [
+    "intended_use"
+   ]
+  },
+  {
+   "id": "google-t5/t5-small",
+   "split": "test",
+   "labels": {
+    "intended_use": 1,
+    "out_of_scope": 0,
+    "limitations": 0,
+    "bias_risks": 0,
+    "training_data": 1,
+    "evaluation": 0,
+    "compute_env": 1,
+    "contact": 0
+   },
+   "borderline": [
+    "evaluation",
+    "compute_env"
+   ]
+  },
+  {
+   "id": "cambridgeltl/SapBERT-from-PubMedBERT-fulltext",
+   "split": "test",
+   "labels": {
+    "intended_use": 1,
+    "out_of_scope": 0,
+    "limitations": 0,
+    "bias_risks": 0,
+    "training_data": 1,
+    "evaluation": 0,
+    "compute_env": 0,
+    "contact": 0
+   },
+   "borderline": [
+    "intended_use",
+    "evaluation"
+   ]
+  },
+  {
+   "id": "huihui-ai/Huihui-Qwen3.6-35B-A3B-abliterated-MTP-GGUF",
+   "split": "test",
+   "labels": {
+    "intended_use": 1,
+    "out_of_scope": 1,
+    "limitations": 1,
+    "bias_risks": 1,
+    "training_data": 0,
+    "evaluation": 0,
+    "compute_env": 0,
+    "contact": 0
+   },
+   "borderline": []
+  },
+  {
+   "id": "IDEA-Research/grounding-dino-tiny",
+   "split": "dev",
+   "labels": {
+    "intended_use": 1,
+    "out_of_scope": 0,
+    "limitations": 0,
+    "bias_risks": 0,
+    "training_data": 0,
+    "evaluation": 1,
+    "compute_env": 0,
+    "contact": 0
+   },
+   "borderline": [
+    "limitations",
+    "evaluation"
+   ]
+  },
+  {
+   "id": "Comfy-Org/YuE2",
+   "split": "dev",
+   "labels": {
+    "intended_use": 0,
+    "out_of_scope": 0,
+    "limitations": 0,
+    "bias_risks": 0,
+    "training_data": 0,
+    "evaluation": 0,
+    "compute_env": 0,
+    "contact": 0
+   },
+   "borderline": [
+    "intended_use"
+   ]
+  },
+  {
+   "id": "Qwen/Qwen3-4B-Base",
+   "split": "dev",
+   "labels": {
+    "intended_use": 0,
+    "out_of_scope": 0,
+    "limitations": 0,
+    "bias_risks": 0,
+    "training_data": 1,
+    "evaluation": 0,
+    "compute_env": 0,
+    "contact": 0
+   },
+   "borderline": [
+    "intended_use",
+    "evaluation"
+   ]
+  },
+  {
+   "id": "Qdrant/multilingual-e5-large-onnx",
+   "split": "dev",
+   "labels": {
+    "intended_use": 1,
+    "out_of_scope": 0,
+    "limitations": 0,
+    "bias_risks": 0,
+    "training_data": 0,
+    "evaluation": 0,
+    "compute_env": 0,
+    "contact": 0
+   },
+   "borderline": []
+  },
+  {
+   "id": "lmstudio-community/gemma-4-E4B-it-MLX-6bit",
+   "split": "dev",
+   "labels": {
+    "intended_use": 0,
+    "out_of_scope": 0,
+    "limitations": 1,
+    "bias_risks": 1,
+    "training_data": 0,
+    "evaluation": 0,
+    "compute_env": 0,
+    "contact": 1
+   },
+   "borderline": [
+    "intended_use",
+    "limitations",
+    "bias_risks",
+    "contact"
+   ]
+  },
+  {
+   "id": "SG161222/RealVisXL_V5.0",
+   "split": "dev",
+   "labels": {
+    "intended_use": 1,
+    "out_of_scope": 0,
+    "limitations": 0,
+    "bias_risks": 0,
+    "training_data": 0,
+    "evaluation": 0,
+    "compute_env": 0,
+    "contact": 0
+   },
+   "borderline": [
+    "bias_risks"
+   ]
+  },
+  {
+   "id": "amazon/chronos-bolt-tiny",
+   "split": "dev",
+   "labels": {
+    "intended_use": 1,
+    "out_of_scope": 0,
+    "limitations": 0,
+    "bias_risks": 0,
+    "training_data": 1,
+    "evaluation": 1,
+    "compute_env": 0,
+    "contact": 0
+   },
+   "borderline": [
+    "training_data"
+   ]
+  },
+  {
+   "id": "amazon/chronos-t5-small",
+   "split": "dev",
+   "labels": {
+    "intended_use": 0,
+    "out_of_scope": 0,
+    "limitations": 0,
+    "bias_risks": 0,
+    "training_data": 1,
+    "evaluation": 0,
+    "compute_env": 0,
+    "contact": 1
+   },
+   "borderline": [
+    "intended_use",
+    "training_data",
+    "contact"
+   ]
+  },
+  {
+   "id": "facebook/w2v-bert-2.0",
+   "split": "dev",
+   "labels": {
+    "intended_use": 1,
+    "out_of_scope": 0,
+    "limitations": 1,
+    "bias_risks": 0,
+    "training_data": 1,
+    "evaluation": 0,
+    "compute_env": 0,
+    "contact": 0
+   },
+   "borderline": [
+    "out_of_scope",
+    "limitations"
+   ]
+  },
+  {
+   "id": "tencent/Hy3",
+   "split": "dev",
+   "labels": {
+    "intended_use": 1,
+    "out_of_scope": 0,
+    "limitations": 0,
+    "bias_risks": 0,
+    "training_data": 0,
+    "evaluation": 1,
+    "compute_env": 0,
+    "contact": 1
+   },
+   "borderline": [
+    "bias_risks",
+    "training_data"
+   ]
+  },
+  {
+   "id": "QuantStack/Wan2.2-Animate-14B-GGUF",
+   "split": "test",
+   "labels": {
+    "intended_use": 0,
+    "out_of_scope": 0,
+    "limitations": 0,
+    "bias_risks": 0,
+    "training_data": 0,
+    "evaluation": 0,
+    "compute_env": 0,
+    "contact": 0
+   },
+   "borderline": [
+    "intended_use"
+   ]
+  },
+  {
+   "id": "Babelscape/wikineural-multilingual-ner",
+   "split": "test",
+   "labels": {
+    "intended_use": 0,
+    "out_of_scope": 0,
+    "limitations": 1,
+    "bias_risks": 0,
+    "training_data": 1,
+    "evaluation": 0,
+    "compute_env": 0,
+    "contact": 0
+   },
+   "borderline": [
+    "intended_use",
+    "bias_risks",
+    "evaluation"
+   ]
+  },
+  {
+   "id": "ggml-org/gemma-4-26B-A4B-it-GGUF",
+   "split": "test",
+   "labels": {
+    "intended_use": 0,
+    "out_of_scope": 0,
+    "limitations": 0,
+    "bias_risks": 0,
+    "training_data": 0,
+    "evaluation": 0,
+    "compute_env": 0,
+    "contact": 0
+   },
+   "borderline": []
+  },
+  {
+   "id": "Comfy-Org/stable-diffusion-1.5",
+   "split": "test",
+   "labels": {
+    "intended_use": 0,
+    "out_of_scope": 0,
+    "limitations": 0,
+    "bias_risks": 0,
+    "training_data": 0,
+    "evaluation": 0,
+    "compute_env": 0,
+    "contact": 0
+   },
+   "borderline": [
+    "intended_use"
+   ]
+  },
+  {
+   "id": "kingabzpro/wav2vec2-large-xls-r-300m-Urdu",
+   "split": "test",
+   "labels": {
+    "intended_use": 1,
+    "out_of_scope": 0,
+    "limitations": 1,
+    "bias_risks": 0,
+    "training_data": 1,
+    "evaluation": 1,
+    "compute_env": 1,
+    "contact": 0
+   },
+   "borderline": [
+    "out_of_scope",
+    "compute_env"
+   ]
+  },
+  {
+   "id": "sakamakismile/Qwen3.8-27B-MTP-NVFP4",
+   "split": "test",
+   "labels": {
+    "intended_use": 0,
+    "out_of_scope": 0,
+    "limitations": 1,
+    "bias_risks": 0,
+    "training_data": 0,
+    "evaluation": 1,
+    "compute_env": 1,
+    "contact": 0
+   },
+   "borderline": [
+    "intended_use",
+    "limitations",
+    "training_data",
+    "evaluation"
+   ]
+  },
+  {
+   "id": "jinaai/jina-embeddings-v2-base-en",
+   "split": "test",
+   "labels": {
+    "intended_use": 1,
+    "out_of_scope": 0,
+    "limitations": 0,
+    "bias_risks": 0,
+    "training_data": 1,
+    "evaluation": 0,
+    "compute_env": 0,
+    "contact": 1
+   },
+   "borderline": [
+    "contact"
+   ]
+  },
+  {
+   "id": "facebook/wav2vec2-lv-60-espeak-cv-ft",
+   "split": "test",
+   "labels": {
+    "intended_use": 1,
+    "out_of_scope": 0,
+    "limitations": 0,
+    "bias_risks": 0,
+    "training_data": 1,
+    "evaluation": 0,
+    "compute_env": 0,
+    "contact": 0
+   },
+   "borderline": [
+    "intended_use",
+    "limitations"
+   ]
+  },
+  {
+   "id": "unsloth/FLUX.2-klein-9B-GGUF",
+   "split": "test",
+   "labels": {
+    "intended_use": 1,
+    "out_of_scope": 1,
+    "limitations": 1,
+    "bias_risks": 1,
+    "training_data": 0,
+    "evaluation": 1,
+    "compute_env": 0,
+    "contact": 1
+   },
+   "borderline": [
+    "training_data",
+    "evaluation",
+    "compute_env"
+   ]
+  },
+  {
+   "id": "autogluon/chronos-bolt-mini",
+   "split": "test",
+   "labels": {
+    "intended_use": 1,
+    "out_of_scope": 0,
+    "limitations": 0,
+    "bias_risks": 0,
+    "training_data": 1,
+    "evaluation": 1,
+    "compute_env": 0,
+    "contact": 0
+   },
+   "borderline": [
+    "training_data",
+    "compute_env"
+   ]
+  }
+ ]
+}

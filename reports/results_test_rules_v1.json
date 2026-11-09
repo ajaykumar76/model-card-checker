@@ -1,0 +1,1462 @@
+{
+ "method": "rules",
+ "split": "test",
+ "summary": {
+  "all": {
+   "n": 160,
+   "tp": 35,
+   "fp": 28,
+   "fn": 8,
+   "tn": 89
+  },
+  "clear_only": {
+   "n": 124,
+   "tp": 26,
+   "fp": 19,
+   "fn": 2,
+   "tn": 77
+  }
+ },
+ "detail": [
+  {
+   "id": "lmstudio-community/Qwen3.8-27B-MLX-8bit",
+   "element": "intended_use",
+   "gold": 0,
+   "pred": 0,
+   "borderline": true,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "lmstudio-community/Qwen3.8-27B-MLX-8bit",
+   "element": "out_of_scope",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "lmstudio-community/Qwen3.8-27B-MLX-8bit",
+   "element": "limitations",
+   "gold": 1,
+   "pred": 1,
+   "borderline": true,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "lmstudio-community/Qwen3.8-27B-MLX-8bit",
+   "element": "bias_risks",
+   "gold": 1,
+   "pred": 1,
+   "borderline": true,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "lmstudio-community/Qwen3.8-27B-MLX-8bit",
+   "element": "training_data",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "lmstudio-community/Qwen3.8-27B-MLX-8bit",
+   "element": "evaluation",
+   "gold": 0,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "lmstudio-community/Qwen3.8-27B-MLX-8bit",
+   "element": "compute_env",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "lmstudio-community/Qwen3.8-27B-MLX-8bit",
+   "element": "contact",
+   "gold": 1,
+   "pred": 1,
+   "borderline": true,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "iitolstykh/mivolo_v2",
+   "element": "intended_use",
+   "gold": 1,
+   "pred": 0,
+   "borderline": true,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "iitolstykh/mivolo_v2",
+   "element": "out_of_scope",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "iitolstykh/mivolo_v2",
+   "element": "limitations",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "iitolstykh/mivolo_v2",
+   "element": "bias_risks",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "iitolstykh/mivolo_v2",
+   "element": "training_data",
+   "gold": 0,
+   "pred": 1,
+   "borderline": true,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "iitolstykh/mivolo_v2",
+   "element": "evaluation",
+   "gold": 1,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "iitolstykh/mivolo_v2",
+   "element": "compute_env",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "iitolstykh/mivolo_v2",
+   "element": "contact",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "pyannote/wespeaker-voxceleb-resnet34-LM",
+   "element": "intended_use",
+   "gold": 1,
+   "pred": 0,
+   "borderline": true,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "pyannote/wespeaker-voxceleb-resnet34-LM",
+   "element": "out_of_scope",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "pyannote/wespeaker-voxceleb-resnet34-LM",
+   "element": "limitations",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "pyannote/wespeaker-voxceleb-resnet34-LM",
+   "element": "bias_risks",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "pyannote/wespeaker-voxceleb-resnet34-LM",
+   "element": "training_data",
+   "gold": 0,
+   "pred": 1,
+   "borderline": true,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "pyannote/wespeaker-voxceleb-resnet34-LM",
+   "element": "evaluation",
+   "gold": 0,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "pyannote/wespeaker-voxceleb-resnet34-LM",
+   "element": "compute_env",
+   "gold": 0,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "pyannote/wespeaker-voxceleb-resnet34-LM",
+   "element": "contact",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "facebook/wav2vec2-base-960h",
+   "element": "intended_use",
+   "gold": 1,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "facebook/wav2vec2-base-960h",
+   "element": "out_of_scope",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "facebook/wav2vec2-base-960h",
+   "element": "limitations",
+   "gold": 0,
+   "pred": 0,
+   "borderline": true,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "facebook/wav2vec2-base-960h",
+   "element": "bias_risks",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "facebook/wav2vec2-base-960h",
+   "element": "training_data",
+   "gold": 1,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "facebook/wav2vec2-base-960h",
+   "element": "evaluation",
+   "gold": 1,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "facebook/wav2vec2-base-960h",
+   "element": "compute_env",
+   "gold": 0,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "facebook/wav2vec2-base-960h",
+   "element": "contact",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Qwen/Qwen2.5-1.5B-Instruct",
+   "element": "intended_use",
+   "gold": 0,
+   "pred": 0,
+   "borderline": true,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Qwen/Qwen2.5-1.5B-Instruct",
+   "element": "out_of_scope",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Qwen/Qwen2.5-1.5B-Instruct",
+   "element": "limitations",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Qwen/Qwen2.5-1.5B-Instruct",
+   "element": "bias_risks",
+   "gold": 0,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Qwen/Qwen2.5-1.5B-Instruct",
+   "element": "training_data",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Qwen/Qwen2.5-1.5B-Instruct",
+   "element": "evaluation",
+   "gold": 0,
+   "pred": 1,
+   "borderline": true,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Qwen/Qwen2.5-1.5B-Instruct",
+   "element": "compute_env",
+   "gold": 0,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Qwen/Qwen2.5-1.5B-Instruct",
+   "element": "contact",
+   "gold": 0,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Xenova/bge-base-en-v1.5",
+   "element": "intended_use",
+   "gold": 1,
+   "pred": 0,
+   "borderline": true,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Xenova/bge-base-en-v1.5",
+   "element": "out_of_scope",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Xenova/bge-base-en-v1.5",
+   "element": "limitations",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Xenova/bge-base-en-v1.5",
+   "element": "bias_risks",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Xenova/bge-base-en-v1.5",
+   "element": "training_data",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Xenova/bge-base-en-v1.5",
+   "element": "evaluation",
+   "gold": 0,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Xenova/bge-base-en-v1.5",
+   "element": "compute_env",
+   "gold": 0,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Xenova/bge-base-en-v1.5",
+   "element": "contact",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Comfy-Org/Wan-2.2",
+   "element": "intended_use",
+   "gold": 0,
+   "pred": 0,
+   "borderline": true,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Comfy-Org/Wan-2.2",
+   "element": "out_of_scope",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Comfy-Org/Wan-2.2",
+   "element": "limitations",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Comfy-Org/Wan-2.2",
+   "element": "bias_risks",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Comfy-Org/Wan-2.2",
+   "element": "training_data",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Comfy-Org/Wan-2.2",
+   "element": "evaluation",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Comfy-Org/Wan-2.2",
+   "element": "compute_env",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Comfy-Org/Wan-2.2",
+   "element": "contact",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "google-t5/t5-small",
+   "element": "intended_use",
+   "gold": 1,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "google-t5/t5-small",
+   "element": "out_of_scope",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "google-t5/t5-small",
+   "element": "limitations",
+   "gold": 0,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "google-t5/t5-small",
+   "element": "bias_risks",
+   "gold": 0,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "google-t5/t5-small",
+   "element": "training_data",
+   "gold": 1,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "google-t5/t5-small",
+   "element": "evaluation",
+   "gold": 0,
+   "pred": 1,
+   "borderline": true,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "google-t5/t5-small",
+   "element": "compute_env",
+   "gold": 1,
+   "pred": 1,
+   "borderline": true,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "google-t5/t5-small",
+   "element": "contact",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "cambridgeltl/SapBERT-from-PubMedBERT-fulltext",
+   "element": "intended_use",
+   "gold": 1,
+   "pred": 0,
+   "borderline": true,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "cambridgeltl/SapBERT-from-PubMedBERT-fulltext",
+   "element": "out_of_scope",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "cambridgeltl/SapBERT-from-PubMedBERT-fulltext",
+   "element": "limitations",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "cambridgeltl/SapBERT-from-PubMedBERT-fulltext",
+   "element": "bias_risks",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "cambridgeltl/SapBERT-from-PubMedBERT-fulltext",
+   "element": "training_data",
+   "gold": 1,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "cambridgeltl/SapBERT-from-PubMedBERT-fulltext",
+   "element": "evaluation",
+   "gold": 0,
+   "pred": 1,
+   "borderline": true,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "cambridgeltl/SapBERT-from-PubMedBERT-fulltext",
+   "element": "compute_env",
+   "gold": 0,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "cambridgeltl/SapBERT-from-PubMedBERT-fulltext",
+   "element": "contact",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "huihui-ai/Huihui-Qwen3.6-35B-A3B-abliterated-MTP-GGUF",
+   "element": "intended_use",
+   "gold": 1,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "huihui-ai/Huihui-Qwen3.6-35B-A3B-abliterated-MTP-GGUF",
+   "element": "out_of_scope",
+   "gold": 1,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "huihui-ai/Huihui-Qwen3.6-35B-A3B-abliterated-MTP-GGUF",
+   "element": "limitations",
+   "gold": 1,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "huihui-ai/Huihui-Qwen3.6-35B-A3B-abliterated-MTP-GGUF",
+   "element": "bias_risks",
+   "gold": 1,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "huihui-ai/Huihui-Qwen3.6-35B-A3B-abliterated-MTP-GGUF",
+   "element": "training_data",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "huihui-ai/Huihui-Qwen3.6-35B-A3B-abliterated-MTP-GGUF",
+   "element": "evaluation",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "huihui-ai/Huihui-Qwen3.6-35B-A3B-abliterated-MTP-GGUF",
+   "element": "compute_env",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "huihui-ai/Huihui-Qwen3.6-35B-A3B-abliterated-MTP-GGUF",
+   "element": "contact",
+   "gold": 0,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "QuantStack/Wan2.2-Animate-14B-GGUF",
+   "element": "intended_use",
+   "gold": 0,
+   "pred": 0,
+   "borderline": true,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "QuantStack/Wan2.2-Animate-14B-GGUF",
+   "element": "out_of_scope",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "QuantStack/Wan2.2-Animate-14B-GGUF",
+   "element": "limitations",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "QuantStack/Wan2.2-Animate-14B-GGUF",
+   "element": "bias_risks",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "QuantStack/Wan2.2-Animate-14B-GGUF",
+   "element": "training_data",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "QuantStack/Wan2.2-Animate-14B-GGUF",
+   "element": "evaluation",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "QuantStack/Wan2.2-Animate-14B-GGUF",
+   "element": "compute_env",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "QuantStack/Wan2.2-Animate-14B-GGUF",
+   "element": "contact",
+   "gold": 0,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Babelscape/wikineural-multilingual-ner",
+   "element": "intended_use",
+   "gold": 0,
+   "pred": 0,
+   "borderline": true,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Babelscape/wikineural-multilingual-ner",
+   "element": "out_of_scope",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Babelscape/wikineural-multilingual-ner",
+   "element": "limitations",
+   "gold": 1,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Babelscape/wikineural-multilingual-ner",
+   "element": "bias_risks",
+   "gold": 0,
+   "pred": 1,
+   "borderline": true,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Babelscape/wikineural-multilingual-ner",
+   "element": "training_data",
+   "gold": 1,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Babelscape/wikineural-multilingual-ner",
+   "element": "evaluation",
+   "gold": 0,
+   "pred": 1,
+   "borderline": true,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Babelscape/wikineural-multilingual-ner",
+   "element": "compute_env",
+   "gold": 0,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Babelscape/wikineural-multilingual-ner",
+   "element": "contact",
+   "gold": 0,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "ggml-org/gemma-4-26B-A4B-it-GGUF",
+   "element": "intended_use",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "ggml-org/gemma-4-26B-A4B-it-GGUF",
+   "element": "out_of_scope",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "ggml-org/gemma-4-26B-A4B-it-GGUF",
+   "element": "limitations",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "ggml-org/gemma-4-26B-A4B-it-GGUF",
+   "element": "bias_risks",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "ggml-org/gemma-4-26B-A4B-it-GGUF",
+   "element": "training_data",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "ggml-org/gemma-4-26B-A4B-it-GGUF",
+   "element": "evaluation",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "ggml-org/gemma-4-26B-A4B-it-GGUF",
+   "element": "compute_env",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "ggml-org/gemma-4-26B-A4B-it-GGUF",
+   "element": "contact",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Comfy-Org/stable-diffusion-1.5",
+   "element": "intended_use",
+   "gold": 0,
+   "pred": 0,
+   "borderline": true,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Comfy-Org/stable-diffusion-1.5",
+   "element": "out_of_scope",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Comfy-Org/stable-diffusion-1.5",
+   "element": "limitations",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Comfy-Org/stable-diffusion-1.5",
+   "element": "bias_risks",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Comfy-Org/stable-diffusion-1.5",
+   "element": "training_data",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Comfy-Org/stable-diffusion-1.5",
+   "element": "evaluation",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Comfy-Org/stable-diffusion-1.5",
+   "element": "compute_env",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Comfy-Org/stable-diffusion-1.5",
+   "element": "contact",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "kingabzpro/wav2vec2-large-xls-r-300m-Urdu",
+   "element": "intended_use",
+   "gold": 1,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "kingabzpro/wav2vec2-large-xls-r-300m-Urdu",
+   "element": "out_of_scope",
+   "gold": 0,
+   "pred": 0,
+   "borderline": true,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "kingabzpro/wav2vec2-large-xls-r-300m-Urdu",
+   "element": "limitations",
+   "gold": 1,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "kingabzpro/wav2vec2-large-xls-r-300m-Urdu",
+   "element": "bias_risks",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "kingabzpro/wav2vec2-large-xls-r-300m-Urdu",
+   "element": "training_data",
+   "gold": 1,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "kingabzpro/wav2vec2-large-xls-r-300m-Urdu",
+   "element": "evaluation",
+   "gold": 1,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "kingabzpro/wav2vec2-large-xls-r-300m-Urdu",
+   "element": "compute_env",
+   "gold": 1,
+   "pred": 1,
+   "borderline": true,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "kingabzpro/wav2vec2-large-xls-r-300m-Urdu",
+   "element": "contact",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "sakamakismile/Qwen3.8-27B-MTP-NVFP4",
+   "element": "intended_use",
+   "gold": 0,
+   "pred": 0,
+   "borderline": true,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "sakamakismile/Qwen3.8-27B-MTP-NVFP4",
+   "element": "out_of_scope",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "sakamakismile/Qwen3.8-27B-MTP-NVFP4",
+   "element": "limitations",
+   "gold": 1,
+   "pred": 0,
+   "borderline": true,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "sakamakismile/Qwen3.8-27B-MTP-NVFP4",
+   "element": "bias_risks",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "sakamakismile/Qwen3.8-27B-MTP-NVFP4",
+   "element": "training_data",
+   "gold": 0,
+   "pred": 0,
+   "borderline": true,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "sakamakismile/Qwen3.8-27B-MTP-NVFP4",
+   "element": "evaluation",
+   "gold": 1,
+   "pred": 1,
+   "borderline": true,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "sakamakismile/Qwen3.8-27B-MTP-NVFP4",
+   "element": "compute_env",
+   "gold": 1,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "sakamakismile/Qwen3.8-27B-MTP-NVFP4",
+   "element": "contact",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "jinaai/jina-embeddings-v2-base-en",
+   "element": "intended_use",
+   "gold": 1,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "jinaai/jina-embeddings-v2-base-en",
+   "element": "out_of_scope",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "jinaai/jina-embeddings-v2-base-en",
+   "element": "limitations",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "jinaai/jina-embeddings-v2-base-en",
+   "element": "bias_risks",
+   "gold": 0,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "jinaai/jina-embeddings-v2-base-en",
+   "element": "training_data",
+   "gold": 1,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "jinaai/jina-embeddings-v2-base-en",
+   "element": "evaluation",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "jinaai/jina-embeddings-v2-base-en",
+   "element": "compute_env",
+   "gold": 0,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "jinaai/jina-embeddings-v2-base-en",
+   "element": "contact",
+   "gold": 1,
+   "pred": 1,
+   "borderline": true,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "facebook/wav2vec2-lv-60-espeak-cv-ft",
+   "element": "intended_use",
+   "gold": 1,
+   "pred": 0,
+   "borderline": true,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "facebook/wav2vec2-lv-60-espeak-cv-ft",
+   "element": "out_of_scope",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "facebook/wav2vec2-lv-60-espeak-cv-ft",
+   "element": "limitations",
+   "gold": 0,
+   "pred": 0,
+   "borderline": true,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "facebook/wav2vec2-lv-60-espeak-cv-ft",
+   "element": "bias_risks",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "facebook/wav2vec2-lv-60-espeak-cv-ft",
+   "element": "training_data",
+   "gold": 1,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "facebook/wav2vec2-lv-60-espeak-cv-ft",
+   "element": "evaluation",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "facebook/wav2vec2-lv-60-espeak-cv-ft",
+   "element": "compute_env",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "facebook/wav2vec2-lv-60-espeak-cv-ft",
+   "element": "contact",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "unsloth/FLUX.2-klein-9B-GGUF",
+   "element": "intended_use",
+   "gold": 1,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "unsloth/FLUX.2-klein-9B-GGUF",
+   "element": "out_of_scope",
+   "gold": 1,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "unsloth/FLUX.2-klein-9B-GGUF",
+   "element": "limitations",
+   "gold": 1,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "unsloth/FLUX.2-klein-9B-GGUF",
+   "element": "bias_risks",
+   "gold": 1,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "unsloth/FLUX.2-klein-9B-GGUF",
+   "element": "training_data",
+   "gold": 0,
+   "pred": 1,
+   "borderline": true,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "unsloth/FLUX.2-klein-9B-GGUF",
+   "element": "evaluation",
+   "gold": 1,
+   "pred": 1,
+   "borderline": true,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "unsloth/FLUX.2-klein-9B-GGUF",
+   "element": "compute_env",
+   "gold": 0,
+   "pred": 0,
+   "borderline": true,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "unsloth/FLUX.2-klein-9B-GGUF",
+   "element": "contact",
+   "gold": 1,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "autogluon/chronos-bolt-mini",
+   "element": "intended_use",
+   "gold": 1,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "autogluon/chronos-bolt-mini",
+   "element": "out_of_scope",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "autogluon/chronos-bolt-mini",
+   "element": "limitations",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "autogluon/chronos-bolt-mini",
+   "element": "bias_risks",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "autogluon/chronos-bolt-mini",
+   "element": "training_data",
+   "gold": 1,
+   "pred": 1,
+   "borderline": true,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "autogluon/chronos-bolt-mini",
+   "element": "evaluation",
+   "gold": 1,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "autogluon/chronos-bolt-mini",
+   "element": "compute_env",
+   "gold": 0,
+   "pred": 1,
+   "borderline": true,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "autogluon/chronos-bolt-mini",
+   "element": "contact",
+   "gold": 0,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  }
+ ]
+}

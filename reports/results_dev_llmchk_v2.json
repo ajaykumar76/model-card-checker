@@ -1,0 +1,1462 @@
+{
+ "method": "llmchk",
+ "split": "dev",
+ "summary": {
+  "all": {
+   "n": 160,
+   "tp": 27,
+   "fp": 15,
+   "fn": 24,
+   "tn": 94
+  },
+  "clear_only": {
+   "n": 121,
+   "tp": 20,
+   "fp": 8,
+   "fn": 12,
+   "tn": 81
+  }
+ },
+ "detail": [
+  {
+   "id": "FacebookAI/roberta-large",
+   "element": "intended_use",
+   "gold": 1,
+   "pred": 1,
+   "borderline": false,
+   "quote": "You can use the raw model for masked language modeling, but it's mostly intended to be fine-tuned on a downstream task.",
+   "flag": ""
+  },
+  {
+   "id": "FacebookAI/roberta-large",
+   "element": "out_of_scope",
+   "gold": 1,
+   "pred": 0,
+   "borderline": true,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "FacebookAI/roberta-large",
+   "element": "limitations",
+   "gold": 1,
+   "pred": 1,
+   "borderline": false,
+   "quote": "The training data used for this model contains a lot of unfiltered content from the internet, which is far from neutral. Therefore, the model can have biased predictions:",
+   "flag": ""
+  },
+  {
+   "id": "FacebookAI/roberta-large",
+   "element": "bias_risks",
+   "gold": 1,
+   "pred": 1,
+   "borderline": false,
+   "quote": "The training data used for this model contains a lot of unfiltered content from the internet, which is far from neutral. Therefore, the model can have biased predictions:",
+   "flag": ""
+  },
+  {
+   "id": "FacebookAI/roberta-large",
+   "element": "training_data",
+   "gold": 1,
+   "pred": 1,
+   "borderline": false,
+   "quote": "This way, the model learns an inner representation of the English language that can then be used to extract features useful for downstream tasks: if you have a dataset of labeled sentences for instance, you can train a standard classifier using the features produced by the BERT model as inputs.",
+   "flag": ""
+  },
+  {
+   "id": "FacebookAI/roberta-large",
+   "element": "evaluation",
+   "gold": 1,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": "unverified_quote"
+  },
+  {
+   "id": "FacebookAI/roberta-large",
+   "element": "compute_env",
+   "gold": 1,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "FacebookAI/roberta-large",
+   "element": "contact",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "sentence-transformers/all-MiniLM-L12-v2",
+   "element": "intended_use",
+   "gold": 1,
+   "pred": 1,
+   "borderline": false,
+   "quote": "Our model is intended to be used as a sentence and short paragraph encoder. Given an input text, it outputs a vector which captures the semantic information. The sentence vector may be used for information retrieval, clustering or sentence similarity tasks.",
+   "flag": ""
+  },
+  {
+   "id": "sentence-transformers/all-MiniLM-L12-v2",
+   "element": "out_of_scope",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "sentence-transformers/all-MiniLM-L12-v2",
+   "element": "limitations",
+   "gold": 1,
+   "pred": 0,
+   "borderline": true,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "sentence-transformers/all-MiniLM-L12-v2",
+   "element": "bias_risks",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "sentence-transformers/all-MiniLM-L12-v2",
+   "element": "training_data",
+   "gold": 1,
+   "pred": 1,
+   "borderline": false,
+   "quote": "We used the pretrained [`microsoft/MiniLM-L12-H384-uncased`](https://huggingface.co/microsoft/MiniLM-L12-H384-uncased) model and fine-tuned in on a 1B sentence pairs dataset.",
+   "flag": ""
+  },
+  {
+   "id": "sentence-transformers/all-MiniLM-L12-v2",
+   "element": "evaluation",
+   "gold": 0,
+   "pred": 1,
+   "borderline": false,
+   "quote": "We fine-tune the model using a contrastive objective. Formally, we compute the cosine similarity from each possible sentence pairs from the batch.\nWe then apply the cross entropy loss by comparing with true pairs.",
+   "flag": ""
+  },
+  {
+   "id": "sentence-transformers/all-MiniLM-L12-v2",
+   "element": "compute_env",
+   "gold": 1,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "sentence-transformers/all-MiniLM-L12-v2",
+   "element": "contact",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Qwen/Qwen3-VL-2B-Instruct",
+   "element": "intended_use",
+   "gold": 0,
+   "pred": 1,
+   "borderline": true,
+   "quote": "handles books and hours-long video with full recall and second-level indexing.",
+   "flag": ""
+  },
+  {
+   "id": "Qwen/Qwen3-VL-2B-Instruct",
+   "element": "out_of_scope",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Qwen/Qwen3-VL-2B-Instruct",
+   "element": "limitations",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Qwen/Qwen3-VL-2B-Instruct",
+   "element": "bias_risks",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Qwen/Qwen3-VL-2B-Instruct",
+   "element": "training_data",
+   "gold": 0,
+   "pred": 0,
+   "borderline": true,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Qwen/Qwen3-VL-2B-Instruct",
+   "element": "evaluation",
+   "gold": 0,
+   "pred": 0,
+   "borderline": true,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Qwen/Qwen3-VL-2B-Instruct",
+   "element": "compute_env",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Qwen/Qwen3-VL-2B-Instruct",
+   "element": "contact",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Qwen/Qwen2.5-Coder-7B-Instruct",
+   "element": "intended_use",
+   "gold": 1,
+   "pred": 0,
+   "borderline": true,
+   "quote": "meets the needs of different developers.",
+   "flag": "unverified_quote"
+  },
+  {
+   "id": "Qwen/Qwen2.5-Coder-7B-Instruct",
+   "element": "out_of_scope",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Qwen/Qwen2.5-Coder-7B-Instruct",
+   "element": "limitations",
+   "gold": 0,
+   "pred": 1,
+   "borderline": true,
+   "quote": "With `transformers<4.37.0`, you will encounter the following error:",
+   "flag": ""
+  },
+  {
+   "id": "Qwen/Qwen2.5-Coder-7B-Instruct",
+   "element": "bias_risks",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Qwen/Qwen2.5-Coder-7B-Instruct",
+   "element": "training_data",
+   "gold": 1,
+   "pred": 1,
+   "borderline": true,
+   "quote": "Source code, text-code grounding, Synthetic data, etc.",
+   "flag": ""
+  },
+  {
+   "id": "Qwen/Qwen2.5-Coder-7B-Instruct",
+   "element": "evaluation",
+   "gold": 0,
+   "pred": 0,
+   "borderline": true,
+   "quote": "Detailed evaluation results are reported in this [\\u2028blog\\u2028](https://qwenlm.github.io/blog/qwen2.5-coder-family/).",
+   "flag": "unverified_quote"
+  },
+  {
+   "id": "Qwen/Qwen2.5-Coder-7B-Instruct",
+   "element": "compute_env",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Qwen/Qwen2.5-Coder-7B-Instruct",
+   "element": "contact",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "openai/clip-vit-base-patch16",
+   "element": "intended_use",
+   "gold": 1,
+   "pred": 1,
+   "borderline": false,
+   "quote": "The primary intended users of these models are AI researchers. We primarily imagine the model will be used by researchers to better understand robustness, generalization, and other capabilities, biases, and constraints of computer vision models.",
+   "flag": ""
+  },
+  {
+   "id": "openai/clip-vit-base-patch16",
+   "element": "out_of_scope",
+   "gold": 1,
+   "pred": 0,
+   "borderline": false,
+   "quote": "[2] Any deployed use case of the model - whether commercial or not - is currently out of scope.",
+   "flag": "unverified_quote"
+  },
+  {
+   "id": "openai/clip-vit-base-patch16",
+   "element": "limitations",
+   "gold": 1,
+   "pred": 1,
+   "borderline": false,
+   "quote": "CLIP currently struggles with respect to certain tasks such as fine grained classification and counting objects.",
+   "flag": ""
+  },
+  {
+   "id": "openai/clip-vit-base-patch16",
+   "element": "bias_risks",
+   "gold": 1,
+   "pred": 1,
+   "borderline": false,
+   "quote": "We find that the performance of CLIP - and the specific biases it exhibits - can depend significantly on class design and the choices one makes for categories to include and exclude.",
+   "flag": ""
+  },
+  {
+   "id": "openai/clip-vit-base-patch16",
+   "element": "training_data",
+   "gold": 1,
+   "pred": 0,
+   "borderline": false,
+   "quote": "[3] (Data) The model was trained on publicly available image-caption data. This was done through a combination of crawling a handful of websites and using commonly-used pre-existing image datasets such as [YFCC100M](http://projects.dfki.uni-kl.de/yfcc100m/). A large portion of the data comes from our crawling of the internet. This means that the data is more representative of people and societies most connected to the internet which tend to skew towards more developed nations, and younger, male users.",
+   "flag": "unverified_quote"
+  },
+  {
+   "id": "openai/clip-vit-base-patch16",
+   "element": "evaluation",
+   "gold": 1,
+   "pred": 0,
+   "borderline": true,
+   "quote": "[2] (Performance) The paper describes model performance on the following datasets: ...",
+   "flag": "unverified_quote"
+  },
+  {
+   "id": "openai/clip-vit-base-patch16",
+   "element": "compute_env",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "openai/clip-vit-base-patch16",
+   "element": "contact",
+   "gold": 1,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
+   "element": "intended_use",
+   "gold": 1,
+   "pred": 1,
+   "borderline": false,
+   "quote": "It is recommended to use this model for research, testing, or controlled environments, avoiding direct use in production or public-facing commercial applications.",
+   "flag": ""
+  },
+  {
+   "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
+   "element": "out_of_scope",
+   "gold": 1,
+   "pred": 0,
+   "borderline": false,
+   "quote": "[6] (Usage Warnings) - No Default Safety Guarantees: Unlike standard models, this model has not undergone rigorous safety optimization. huihui.ai bears no responsibility for any consequences arising from its use.",
+   "flag": "unverified_quote"
+  },
+  {
+   "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
+   "element": "limitations",
+   "gold": 1,
+   "pred": 0,
+   "borderline": false,
+   "quote": "[4] (Usage Warnings) - **Research and Experimental Use**: It is recommended to use this model for research, testing, or controlled environments, avoiding direct use in production or public-facing commercial applications.",
+   "flag": "unverified_quote"
+  },
+  {
+   "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
+   "element": "bias_risks",
+   "gold": 1,
+   "pred": 0,
+   "borderline": false,
+   "quote": "[1] (Usage Warnings) - **Risk of Sensitive or Controversial Outputs**: This model\u2019s safety filtering has been significantly reduced, potentially generating sensitive, controversial, or inappropriate content. Users should exercise caution and rigorously review generated outputs.",
+   "flag": "unverified_quote"
+  },
+  {
+   "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
+   "element": "training_data",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
+   "element": "evaluation",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
+   "element": "compute_env",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
+   "element": "contact",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "coqui/XTTS-v2",
+   "element": "intended_use",
+   "gold": 1,
+   "pred": 1,
+   "borderline": true,
+   "quote": "This is the same or similar model to what powers [Coqui Studio](https://coqui.ai/) and [Coqui API](https://docs.coqui.ai/docs).",
+   "flag": ""
+  },
+  {
+   "id": "coqui/XTTS-v2",
+   "element": "out_of_scope",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "coqui/XTTS-v2",
+   "element": "limitations",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "coqui/XTTS-v2",
+   "element": "bias_risks",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "coqui/XTTS-v2",
+   "element": "training_data",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "coqui/XTTS-v2",
+   "element": "evaluation",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "coqui/XTTS-v2",
+   "element": "compute_env",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "coqui/XTTS-v2",
+   "element": "contact",
+   "gold": 1,
+   "pred": 0,
+   "borderline": false,
+   "quote": "Come and join in our \u2708Community. We're active on [Discord](https://discord.gg/fBC58unbKE) and [Twitter](https://twitter.com/coqui_ai).",
+   "flag": "unverified_quote"
+  },
+  {
+   "id": "intfloat/multilingual-e5-large-instruct",
+   "element": "intended_use",
+   "gold": 0,
+   "pred": 1,
+   "borderline": true,
+   "quote": "This is a way to customize text embeddings for different scenarios through natural language instructions.",
+   "flag": ""
+  },
+  {
+   "id": "intfloat/multilingual-e5-large-instruct",
+   "element": "out_of_scope",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "intfloat/multilingual-e5-large-instruct",
+   "element": "limitations",
+   "gold": 1,
+   "pred": 1,
+   "borderline": false,
+   "quote": "Long texts will be truncated to at most 512 tokens.",
+   "flag": ""
+  },
+  {
+   "id": "intfloat/multilingual-e5-large-instruct",
+   "element": "bias_risks",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "intfloat/multilingual-e5-large-instruct",
+   "element": "training_data",
+   "gold": 1,
+   "pred": 0,
+   "borderline": true,
+   "quote": "[4] (Training Details) **First stage**: contrastive pre-training with 1 billion weakly supervised text pairs.",
+   "flag": "unverified_quote"
+  },
+  {
+   "id": "intfloat/multilingual-e5-large-instruct",
+   "element": "evaluation",
+   "gold": 0,
+   "pred": 1,
+   "borderline": true,
+   "quote": "Check out [unilm/e5](https://github.com/microsoft/unilm/tree/master/e5) to reproduce evaluation results on the [BEIR](https://arxiv.org/abs/2104.08663) and [MTEB benchmark](https://arxiv.org/abs/2210.07316).",
+   "flag": ""
+  },
+  {
+   "id": "intfloat/multilingual-e5-large-instruct",
+   "element": "compute_env",
+   "gold": 0,
+   "pred": 1,
+   "borderline": false,
+   "quote": "continually trained on a mixture of multilingual datasets.",
+   "flag": ""
+  },
+  {
+   "id": "intfloat/multilingual-e5-large-instruct",
+   "element": "contact",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "nvidia/bigvgan_v2_22khz_80band_256x",
+   "element": "intended_use",
+   "gold": 0,
+   "pred": 1,
+   "borderline": true,
+   "quote": "We provide the [pretrained models on Hugging Face Collections](https://huggingface.co/collections/nvidia/bigvgan-66959df3d97fd7d98d97dc9a).",
+   "flag": ""
+  },
+  {
+   "id": "nvidia/bigvgan_v2_22khz_80band_256x",
+   "element": "out_of_scope",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "nvidia/bigvgan_v2_22khz_80band_256x",
+   "element": "limitations",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "nvidia/bigvgan_v2_22khz_80band_256x",
+   "element": "bias_risks",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "nvidia/bigvgan_v2_22khz_80band_256x",
+   "element": "training_data",
+   "gold": 1,
+   "pred": 1,
+   "borderline": true,
+   "quote": "BigVGAN-v2 is trained using datasets containing diverse audio types, including speech in multiple languages, environmental sounds, and instruments.",
+   "flag": ""
+  },
+  {
+   "id": "nvidia/bigvgan_v2_22khz_80band_256x",
+   "element": "evaluation",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "nvidia/bigvgan_v2_22khz_80band_256x",
+   "element": "compute_env",
+   "gold": 0,
+   "pred": 0,
+   "borderline": true,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "nvidia/bigvgan_v2_22khz_80band_256x",
+   "element": "contact",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "lmstudio-community/Qwen3.8-27B-MLX-6bit",
+   "element": "intended_use",
+   "gold": 0,
+   "pred": 0,
+   "borderline": true,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "lmstudio-community/Qwen3.8-27B-MLX-6bit",
+   "element": "out_of_scope",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "lmstudio-community/Qwen3.8-27B-MLX-6bit",
+   "element": "limitations",
+   "gold": 1,
+   "pred": 1,
+   "borderline": true,
+   "quote": "LM Studio disclaims all warranties or guarantees about the accuracy, reliability or benefits of the Community Models.",
+   "flag": ""
+  },
+  {
+   "id": "lmstudio-community/Qwen3.8-27B-MLX-6bit",
+   "element": "bias_risks",
+   "gold": 1,
+   "pred": 0,
+   "borderline": true,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "lmstudio-community/Qwen3.8-27B-MLX-6bit",
+   "element": "training_data",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "lmstudio-community/Qwen3.8-27B-MLX-6bit",
+   "element": "evaluation",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "lmstudio-community/Qwen3.8-27B-MLX-6bit",
+   "element": "compute_env",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "lmstudio-community/Qwen3.8-27B-MLX-6bit",
+   "element": "contact",
+   "gold": 1,
+   "pred": 0,
+   "borderline": true,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "IDEA-Research/grounding-dino-tiny",
+   "element": "intended_use",
+   "gold": 1,
+   "pred": 1,
+   "borderline": false,
+   "quote": "You can use the raw model for zero-shot object detection (the task of detecting things in an image out-of-the-box without labeled data).",
+   "flag": ""
+  },
+  {
+   "id": "IDEA-Research/grounding-dino-tiny",
+   "element": "out_of_scope",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "IDEA-Research/grounding-dino-tiny",
+   "element": "limitations",
+   "gold": 0,
+   "pred": 0,
+   "borderline": true,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "IDEA-Research/grounding-dino-tiny",
+   "element": "bias_risks",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "IDEA-Research/grounding-dino-tiny",
+   "element": "training_data",
+   "gold": 0,
+   "pred": 1,
+   "borderline": false,
+   "quote": "The model achieves remarkable results, such as 52.5 AP on COCO zero-shot.",
+   "flag": ""
+  },
+  {
+   "id": "IDEA-Research/grounding-dino-tiny",
+   "element": "evaluation",
+   "gold": 1,
+   "pred": 1,
+   "borderline": true,
+   "quote": "52.5 AP on COCO zero-shot.",
+   "flag": ""
+  },
+  {
+   "id": "IDEA-Research/grounding-dino-tiny",
+   "element": "compute_env",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "IDEA-Research/grounding-dino-tiny",
+   "element": "contact",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Comfy-Org/YuE2",
+   "element": "intended_use",
+   "gold": 0,
+   "pred": 0,
+   "borderline": true,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Comfy-Org/YuE2",
+   "element": "out_of_scope",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Comfy-Org/YuE2",
+   "element": "limitations",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Comfy-Org/YuE2",
+   "element": "bias_risks",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Comfy-Org/YuE2",
+   "element": "training_data",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Comfy-Org/YuE2",
+   "element": "evaluation",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Comfy-Org/YuE2",
+   "element": "compute_env",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Comfy-Org/YuE2",
+   "element": "contact",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Qwen/Qwen3-4B-Base",
+   "element": "intended_use",
+   "gold": 0,
+   "pred": 1,
+   "borderline": true,
+   "quote": "For more details, including benchmark evaluation, hardware requirements, and inference performance, please refer to our [blog](https://qwenlm.github.io/blog/qwen3/), [GitHub](https://github.com/QwenLM/Qwen3), and [Documentation](https://qwen.readthedocs.io/en/latest/).",
+   "flag": ""
+  },
+  {
+   "id": "Qwen/Qwen3-4B-Base",
+   "element": "out_of_scope",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Qwen/Qwen3-4B-Base",
+   "element": "limitations",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Qwen/Qwen3-4B-Base",
+   "element": "bias_risks",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Qwen/Qwen3-4B-Base",
+   "element": "training_data",
+   "gold": 1,
+   "pred": 1,
+   "borderline": false,
+   "quote": "pre-trained on 36 trillion tokens across 119 languages \u2014 tripling the language coverage of Qwen2.5 \u2014 with a much richer mix of high-quality data, including coding, STEM, reasoning, book, multilingual, and synthetic data.",
+   "flag": ""
+  },
+  {
+   "id": "Qwen/Qwen3-4B-Base",
+   "element": "evaluation",
+   "gold": 0,
+   "pred": 0,
+   "borderline": true,
+   "quote": "Detailed evaluation results are reported in this [\\u2022 blog](https://qwenlm.github.io/blog/qwen3/).",
+   "flag": "unverified_quote"
+  },
+  {
+   "id": "Qwen/Qwen3-4B-Base",
+   "element": "compute_env",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Qwen/Qwen3-4B-Base",
+   "element": "contact",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Qdrant/multilingual-e5-large-onnx",
+   "element": "intended_use",
+   "gold": 1,
+   "pred": 0,
+   "borderline": false,
+   "quote": "[1] ONNX port of [intfloat/multilingual-e5-large](https://huggingface.co/intfloat/multilingual-e5-large) for text classification and similarity searches.",
+   "flag": "unverified_quote"
+  },
+  {
+   "id": "Qdrant/multilingual-e5-large-onnx",
+   "element": "out_of_scope",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "Names uses that are out of scope, not recommended, or prohibited.",
+   "flag": "unverified_quote"
+  },
+  {
+   "id": "Qdrant/multilingual-e5-large-onnx",
+   "element": "limitations",
+   "gold": 0,
+   "pred": 1,
+   "borderline": false,
+   "quote": "Here's an example of performing inference using the model with [FastEmbed](https://github.com/qdrant/fastembed).",
+   "flag": ""
+  },
+  {
+   "id": "Qdrant/multilingual-e5-large-onnx",
+   "element": "bias_risks",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Qdrant/multilingual-e5-large-onnx",
+   "element": "training_data",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "[1] ONNX port of [intfloat/multilingual-e5-large](https://huggingface.co/intfloat/multilingual-e5-large) for text classification and similarity searches.",
+   "flag": "unverified_quote"
+  },
+  {
+   "id": "Qdrant/multilingual-e5-large-onnx",
+   "element": "evaluation",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": "unverified_quote"
+  },
+  {
+   "id": "Qdrant/multilingual-e5-large-onnx",
+   "element": "compute_env",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "training time",
+   "flag": "unverified_quote"
+  },
+  {
+   "id": "Qdrant/multilingual-e5-large-onnx",
+   "element": "contact",
+   "gold": 0,
+   "pred": 1,
+   "borderline": false,
+   "quote": "Here's an example of performing inference using the model with [FastEmbed](https://github.com/qdrant/fastembed).",
+   "flag": ""
+  },
+  {
+   "id": "lmstudio-community/gemma-4-E4B-it-MLX-6bit",
+   "element": "intended_use",
+   "gold": 0,
+   "pred": 0,
+   "borderline": true,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "lmstudio-community/gemma-4-E4B-it-MLX-6bit",
+   "element": "out_of_scope",
+   "gold": 0,
+   "pred": 1,
+   "borderline": false,
+   "quote": "LM Studio disclaims all warranties or guarantees about the accuracy, reliability or benefits of the Community Models.",
+   "flag": ""
+  },
+  {
+   "id": "lmstudio-community/gemma-4-E4B-it-MLX-6bit",
+   "element": "limitations",
+   "gold": 1,
+   "pred": 1,
+   "borderline": true,
+   "quote": "LM Studio disclaims all warranties or guarantees about the accuracy, reliability or benefits of the Community Models.",
+   "flag": ""
+  },
+  {
+   "id": "lmstudio-community/gemma-4-E4B-it-MLX-6bit",
+   "element": "bias_risks",
+   "gold": 1,
+   "pred": 0,
+   "borderline": true,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "lmstudio-community/gemma-4-E4B-it-MLX-6bit",
+   "element": "training_data",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "lmstudio-community/gemma-4-E4B-it-MLX-6bit",
+   "element": "evaluation",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "lmstudio-community/gemma-4-E4B-it-MLX-6bit",
+   "element": "compute_env",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "lmstudio-community/gemma-4-E4B-it-MLX-6bit",
+   "element": "contact",
+   "gold": 1,
+   "pred": 0,
+   "borderline": true,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "SG161222/RealVisXL_V5.0",
+   "element": "intended_use",
+   "gold": 1,
+   "pred": 1,
+   "borderline": false,
+   "quote": "The model is aimed at photorealism.",
+   "flag": ""
+  },
+  {
+   "id": "SG161222/RealVisXL_V5.0",
+   "element": "out_of_scope",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "SG161222/RealVisXL_V5.0",
+   "element": "limitations",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "SG161222/RealVisXL_V5.0",
+   "element": "bias_risks",
+   "gold": 0,
+   "pred": 0,
+   "borderline": true,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "SG161222/RealVisXL_V5.0",
+   "element": "training_data",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "SG161222/RealVisXL_V5.0",
+   "element": "evaluation",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "SG161222/RealVisXL_V5.0",
+   "element": "compute_env",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "SG161222/RealVisXL_V5.0",
+   "element": "contact",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "amazon/chronos-bolt-tiny",
+   "element": "intended_use",
+   "gold": 1,
+   "pred": 0,
+   "borderline": false,
+   "quote": "[1] (Performance) Chronos-Bolt models are not only significantly faster but also more accurate than the original Chronos models.",
+   "flag": "unverified_quote"
+  },
+  {
+   "id": "amazon/chronos-bolt-tiny",
+   "element": "out_of_scope",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "amazon/chronos-bolt-tiny",
+   "element": "limitations",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "amazon/chronos-bolt-tiny",
+   "element": "bias_risks",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "amazon/chronos-bolt-tiny",
+   "element": "training_data",
+   "gold": 1,
+   "pred": 0,
+   "borderline": true,
+   "quote": "[1] (Chronos-Bolt\u26a1 (Tiny)) Chronos-Bolt is a family of pretrained time series forecasting models which can be used for zero-shot forecasting. It is based on the [T5 encoder-decoder architecture](https://arxiv.org/abs/1910.10683) and has been trained on nearly 100 billion time series observations.",
+   "flag": "unverified_quote"
+  },
+  {
+   "id": "amazon/chronos-bolt-tiny",
+   "element": "evaluation",
+   "gold": 1,
+   "pred": 1,
+   "borderline": false,
+   "quote": "The following plot reports the probabilistic and point forecasting performance of Chronos-Bolt in terms of the [Weighted Quantile Loss (WQL)](https://auto.gluon.ai/stable/tutorials/timeseries/forecasting-metrics.html#autogluon.timeseries.metrics.WQL) and the [Mean Absolute Scaled Error (MASE)](https://auto.gluon.ai/stable/tutorials/timeseries/forecasting-metrics.html#autogluon.timeseries.metrics.MASE), respectively, aggregated over 27 datasets (see the [Chronos paper](https://arxiv.org/abs/2403.07815) for details on this benchmark).",
+   "flag": ""
+  },
+  {
+   "id": "amazon/chronos-bolt-tiny",
+   "element": "compute_env",
+   "gold": 0,
+   "pred": 1,
+   "borderline": false,
+   "quote": "effortless **fine-tuning** of Chronos models, incorporating **covariates** into the forecast through covariate regressors, and **ensembling** with other statistical and machine learning models for maximum accuracy.",
+   "flag": ""
+  },
+  {
+   "id": "amazon/chronos-bolt-tiny",
+   "element": "contact",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "amazon/chronos-t5-small",
+   "element": "intended_use",
+   "gold": 0,
+   "pred": 1,
+   "borderline": true,
+   "quote": "We have released Chronos-Bolt\u26a1\ufe0f models that are more accurate (5% lower error), up to 250 times faster and 20 times more memory-efficient than the original Chronos models of the same size.",
+   "flag": ""
+  },
+  {
+   "id": "amazon/chronos-t5-small",
+   "element": "out_of_scope",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "amazon/chronos-t5-small",
+   "element": "limitations",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "amazon/chronos-t5-small",
+   "element": "bias_risks",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "amazon/chronos-t5-small",
+   "element": "training_data",
+   "gold": 1,
+   "pred": 1,
+   "borderline": true,
+   "quote": "A time series is transformed into a sequence of tokens via scaling and quantization, and a language model is trained on these tokens using the cross-entropy loss.",
+   "flag": ""
+  },
+  {
+   "id": "amazon/chronos-t5-small",
+   "element": "evaluation",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "5% lower error",
+   "flag": "unverified_quote"
+  },
+  {
+   "id": "amazon/chronos-t5-small",
+   "element": "compute_env",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "amazon/chronos-t5-small",
+   "element": "contact",
+   "gold": 1,
+   "pred": 0,
+   "borderline": true,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "facebook/w2v-bert-2.0",
+   "element": "intended_use",
+   "gold": 1,
+   "pred": 1,
+   "borderline": false,
+   "quote": "This model was pre-trained on 4.5M hours of unlabeled audio data covering more than 143 languages. It requires finetuning to be used for downstream tasks such as Automatic Speech Recognition (ASR), or Audio Classification.",
+   "flag": ""
+  },
+  {
+   "id": "facebook/w2v-bert-2.0",
+   "element": "out_of_scope",
+   "gold": 0,
+   "pred": 0,
+   "borderline": true,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "facebook/w2v-bert-2.0",
+   "element": "limitations",
+   "gold": 1,
+   "pred": 0,
+   "borderline": true,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "facebook/w2v-bert-2.0",
+   "element": "bias_risks",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "facebook/w2v-bert-2.0",
+   "element": "training_data",
+   "gold": 1,
+   "pred": 1,
+   "borderline": false,
+   "quote": "This model was pre-trained on 4.5M hours of unlabeled audio data covering more than 143 languages.",
+   "flag": ""
+  },
+  {
+   "id": "facebook/w2v-bert-2.0",
+   "element": "evaluation",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "facebook/w2v-bert-2.0",
+   "element": "compute_env",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "facebook/w2v-bert-2.0",
+   "element": "contact",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "tencent/Hy3",
+   "element": "intended_use",
+   "gold": 1,
+   "pred": 1,
+   "borderline": false,
+   "quote": "In productivity scenarios such as coding, office work, financial modeling, frontend design, and game development, Hy3 has made remarkable progress and can now serve as a reliable, cost-effective model option.",
+   "flag": ""
+  },
+  {
+   "id": "tencent/Hy3",
+   "element": "out_of_scope",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "tencent/Hy3",
+   "element": "limitations",
+   "gold": 0,
+   "pred": 1,
+   "borderline": false,
+   "quote": "accuracy variance across scaffoldings like CodeBuddy, Cline, and KiloCode remains within 4%",
+   "flag": ""
+  },
+  {
+   "id": "tencent/Hy3",
+   "element": "bias_risks",
+   "gold": 0,
+   "pred": 0,
+   "borderline": true,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "tencent/Hy3",
+   "element": "training_data",
+   "gold": 0,
+   "pred": 0,
+   "borderline": true,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "tencent/Hy3",
+   "element": "evaluation",
+   "gold": 1,
+   "pred": 1,
+   "borderline": false,
+   "quote": "We ran a blind evaluation with 270 experts using tasks from their work, and Hy3 scored 2.67/4, outperforming GLM-5.1 at 2.51/4.",
+   "flag": ""
+  },
+  {
+   "id": "tencent/Hy3",
+   "element": "compute_env",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "tencent/Hy3",
+   "element": "contact",
+   "gold": 1,
+   "pred": 1,
+   "borderline": false,
+   "quote": "If you would like to leave a message for our R&D and product teams, welcome to contact us. You can also reach us via email:",
+   "flag": ""
+  }
+ ]
+}

@@ -1,0 +1,1462 @@
+{
+ "method": "rules",
+ "split": "dev",
+ "summary": {
+  "all": {
+   "n": 160,
+   "tp": 39,
+   "fp": 31,
+   "fn": 12,
+   "tn": 78
+  },
+  "clear_only": {
+   "n": 121,
+   "tp": 27,
+   "fp": 25,
+   "fn": 5,
+   "tn": 64
+  }
+ },
+ "detail": [
+  {
+   "id": "FacebookAI/roberta-large",
+   "element": "intended_use",
+   "gold": 1,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "FacebookAI/roberta-large",
+   "element": "out_of_scope",
+   "gold": 1,
+   "pred": 0,
+   "borderline": true,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "FacebookAI/roberta-large",
+   "element": "limitations",
+   "gold": 1,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "FacebookAI/roberta-large",
+   "element": "bias_risks",
+   "gold": 1,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "FacebookAI/roberta-large",
+   "element": "training_data",
+   "gold": 1,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "FacebookAI/roberta-large",
+   "element": "evaluation",
+   "gold": 1,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "FacebookAI/roberta-large",
+   "element": "compute_env",
+   "gold": 1,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "FacebookAI/roberta-large",
+   "element": "contact",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "sentence-transformers/all-MiniLM-L12-v2",
+   "element": "intended_use",
+   "gold": 1,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "sentence-transformers/all-MiniLM-L12-v2",
+   "element": "out_of_scope",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "sentence-transformers/all-MiniLM-L12-v2",
+   "element": "limitations",
+   "gold": 1,
+   "pred": 0,
+   "borderline": true,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "sentence-transformers/all-MiniLM-L12-v2",
+   "element": "bias_risks",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "sentence-transformers/all-MiniLM-L12-v2",
+   "element": "training_data",
+   "gold": 1,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "sentence-transformers/all-MiniLM-L12-v2",
+   "element": "evaluation",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "sentence-transformers/all-MiniLM-L12-v2",
+   "element": "compute_env",
+   "gold": 1,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "sentence-transformers/all-MiniLM-L12-v2",
+   "element": "contact",
+   "gold": 0,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Qwen/Qwen3-VL-2B-Instruct",
+   "element": "intended_use",
+   "gold": 0,
+   "pred": 0,
+   "borderline": true,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Qwen/Qwen3-VL-2B-Instruct",
+   "element": "out_of_scope",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Qwen/Qwen3-VL-2B-Instruct",
+   "element": "limitations",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Qwen/Qwen3-VL-2B-Instruct",
+   "element": "bias_risks",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Qwen/Qwen3-VL-2B-Instruct",
+   "element": "training_data",
+   "gold": 0,
+   "pred": 0,
+   "borderline": true,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Qwen/Qwen3-VL-2B-Instruct",
+   "element": "evaluation",
+   "gold": 0,
+   "pred": 0,
+   "borderline": true,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Qwen/Qwen3-VL-2B-Instruct",
+   "element": "compute_env",
+   "gold": 0,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Qwen/Qwen3-VL-2B-Instruct",
+   "element": "contact",
+   "gold": 0,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Qwen/Qwen2.5-Coder-7B-Instruct",
+   "element": "intended_use",
+   "gold": 1,
+   "pred": 0,
+   "borderline": true,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Qwen/Qwen2.5-Coder-7B-Instruct",
+   "element": "out_of_scope",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Qwen/Qwen2.5-Coder-7B-Instruct",
+   "element": "limitations",
+   "gold": 0,
+   "pred": 0,
+   "borderline": true,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Qwen/Qwen2.5-Coder-7B-Instruct",
+   "element": "bias_risks",
+   "gold": 0,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Qwen/Qwen2.5-Coder-7B-Instruct",
+   "element": "training_data",
+   "gold": 1,
+   "pred": 0,
+   "borderline": true,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Qwen/Qwen2.5-Coder-7B-Instruct",
+   "element": "evaluation",
+   "gold": 0,
+   "pred": 1,
+   "borderline": true,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Qwen/Qwen2.5-Coder-7B-Instruct",
+   "element": "compute_env",
+   "gold": 0,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Qwen/Qwen2.5-Coder-7B-Instruct",
+   "element": "contact",
+   "gold": 0,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "openai/clip-vit-base-patch16",
+   "element": "intended_use",
+   "gold": 1,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "openai/clip-vit-base-patch16",
+   "element": "out_of_scope",
+   "gold": 1,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "openai/clip-vit-base-patch16",
+   "element": "limitations",
+   "gold": 1,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "openai/clip-vit-base-patch16",
+   "element": "bias_risks",
+   "gold": 1,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "openai/clip-vit-base-patch16",
+   "element": "training_data",
+   "gold": 1,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "openai/clip-vit-base-patch16",
+   "element": "evaluation",
+   "gold": 1,
+   "pred": 1,
+   "borderline": true,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "openai/clip-vit-base-patch16",
+   "element": "compute_env",
+   "gold": 0,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "openai/clip-vit-base-patch16",
+   "element": "contact",
+   "gold": 1,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
+   "element": "intended_use",
+   "gold": 1,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
+   "element": "out_of_scope",
+   "gold": 1,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
+   "element": "limitations",
+   "gold": 1,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
+   "element": "bias_risks",
+   "gold": 1,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
+   "element": "training_data",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
+   "element": "evaluation",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
+   "element": "compute_env",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
+   "element": "contact",
+   "gold": 0,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "coqui/XTTS-v2",
+   "element": "intended_use",
+   "gold": 1,
+   "pred": 0,
+   "borderline": true,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "coqui/XTTS-v2",
+   "element": "out_of_scope",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "coqui/XTTS-v2",
+   "element": "limitations",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "coqui/XTTS-v2",
+   "element": "bias_risks",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "coqui/XTTS-v2",
+   "element": "training_data",
+   "gold": 0,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "coqui/XTTS-v2",
+   "element": "evaluation",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "coqui/XTTS-v2",
+   "element": "compute_env",
+   "gold": 0,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "coqui/XTTS-v2",
+   "element": "contact",
+   "gold": 1,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "intfloat/multilingual-e5-large-instruct",
+   "element": "intended_use",
+   "gold": 0,
+   "pred": 0,
+   "borderline": true,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "intfloat/multilingual-e5-large-instruct",
+   "element": "out_of_scope",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "intfloat/multilingual-e5-large-instruct",
+   "element": "limitations",
+   "gold": 1,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "intfloat/multilingual-e5-large-instruct",
+   "element": "bias_risks",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "intfloat/multilingual-e5-large-instruct",
+   "element": "training_data",
+   "gold": 1,
+   "pred": 1,
+   "borderline": true,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "intfloat/multilingual-e5-large-instruct",
+   "element": "evaluation",
+   "gold": 0,
+   "pred": 1,
+   "borderline": true,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "intfloat/multilingual-e5-large-instruct",
+   "element": "compute_env",
+   "gold": 0,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "intfloat/multilingual-e5-large-instruct",
+   "element": "contact",
+   "gold": 0,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "nvidia/bigvgan_v2_22khz_80band_256x",
+   "element": "intended_use",
+   "gold": 0,
+   "pred": 0,
+   "borderline": true,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "nvidia/bigvgan_v2_22khz_80band_256x",
+   "element": "out_of_scope",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "nvidia/bigvgan_v2_22khz_80band_256x",
+   "element": "limitations",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "nvidia/bigvgan_v2_22khz_80band_256x",
+   "element": "bias_risks",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "nvidia/bigvgan_v2_22khz_80band_256x",
+   "element": "training_data",
+   "gold": 1,
+   "pred": 1,
+   "borderline": true,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "nvidia/bigvgan_v2_22khz_80band_256x",
+   "element": "evaluation",
+   "gold": 0,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "nvidia/bigvgan_v2_22khz_80band_256x",
+   "element": "compute_env",
+   "gold": 0,
+   "pred": 1,
+   "borderline": true,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "nvidia/bigvgan_v2_22khz_80band_256x",
+   "element": "contact",
+   "gold": 0,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "lmstudio-community/Qwen3.8-27B-MLX-6bit",
+   "element": "intended_use",
+   "gold": 0,
+   "pred": 0,
+   "borderline": true,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "lmstudio-community/Qwen3.8-27B-MLX-6bit",
+   "element": "out_of_scope",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "lmstudio-community/Qwen3.8-27B-MLX-6bit",
+   "element": "limitations",
+   "gold": 1,
+   "pred": 1,
+   "borderline": true,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "lmstudio-community/Qwen3.8-27B-MLX-6bit",
+   "element": "bias_risks",
+   "gold": 1,
+   "pred": 1,
+   "borderline": true,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "lmstudio-community/Qwen3.8-27B-MLX-6bit",
+   "element": "training_data",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "lmstudio-community/Qwen3.8-27B-MLX-6bit",
+   "element": "evaluation",
+   "gold": 0,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "lmstudio-community/Qwen3.8-27B-MLX-6bit",
+   "element": "compute_env",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "lmstudio-community/Qwen3.8-27B-MLX-6bit",
+   "element": "contact",
+   "gold": 1,
+   "pred": 1,
+   "borderline": true,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "IDEA-Research/grounding-dino-tiny",
+   "element": "intended_use",
+   "gold": 1,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "IDEA-Research/grounding-dino-tiny",
+   "element": "out_of_scope",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "IDEA-Research/grounding-dino-tiny",
+   "element": "limitations",
+   "gold": 0,
+   "pred": 1,
+   "borderline": true,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "IDEA-Research/grounding-dino-tiny",
+   "element": "bias_risks",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "IDEA-Research/grounding-dino-tiny",
+   "element": "training_data",
+   "gold": 0,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "IDEA-Research/grounding-dino-tiny",
+   "element": "evaluation",
+   "gold": 1,
+   "pred": 1,
+   "borderline": true,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "IDEA-Research/grounding-dino-tiny",
+   "element": "compute_env",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "IDEA-Research/grounding-dino-tiny",
+   "element": "contact",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Comfy-Org/YuE2",
+   "element": "intended_use",
+   "gold": 0,
+   "pred": 0,
+   "borderline": true,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Comfy-Org/YuE2",
+   "element": "out_of_scope",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Comfy-Org/YuE2",
+   "element": "limitations",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Comfy-Org/YuE2",
+   "element": "bias_risks",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Comfy-Org/YuE2",
+   "element": "training_data",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Comfy-Org/YuE2",
+   "element": "evaluation",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Comfy-Org/YuE2",
+   "element": "compute_env",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Comfy-Org/YuE2",
+   "element": "contact",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Qwen/Qwen3-4B-Base",
+   "element": "intended_use",
+   "gold": 0,
+   "pred": 0,
+   "borderline": true,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Qwen/Qwen3-4B-Base",
+   "element": "out_of_scope",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Qwen/Qwen3-4B-Base",
+   "element": "limitations",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Qwen/Qwen3-4B-Base",
+   "element": "bias_risks",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Qwen/Qwen3-4B-Base",
+   "element": "training_data",
+   "gold": 1,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Qwen/Qwen3-4B-Base",
+   "element": "evaluation",
+   "gold": 0,
+   "pred": 1,
+   "borderline": true,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Qwen/Qwen3-4B-Base",
+   "element": "compute_env",
+   "gold": 0,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Qwen/Qwen3-4B-Base",
+   "element": "contact",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Qdrant/multilingual-e5-large-onnx",
+   "element": "intended_use",
+   "gold": 1,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Qdrant/multilingual-e5-large-onnx",
+   "element": "out_of_scope",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Qdrant/multilingual-e5-large-onnx",
+   "element": "limitations",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Qdrant/multilingual-e5-large-onnx",
+   "element": "bias_risks",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Qdrant/multilingual-e5-large-onnx",
+   "element": "training_data",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Qdrant/multilingual-e5-large-onnx",
+   "element": "evaluation",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Qdrant/multilingual-e5-large-onnx",
+   "element": "compute_env",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "Qdrant/multilingual-e5-large-onnx",
+   "element": "contact",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "lmstudio-community/gemma-4-E4B-it-MLX-6bit",
+   "element": "intended_use",
+   "gold": 0,
+   "pred": 0,
+   "borderline": true,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "lmstudio-community/gemma-4-E4B-it-MLX-6bit",
+   "element": "out_of_scope",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "lmstudio-community/gemma-4-E4B-it-MLX-6bit",
+   "element": "limitations",
+   "gold": 1,
+   "pred": 1,
+   "borderline": true,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "lmstudio-community/gemma-4-E4B-it-MLX-6bit",
+   "element": "bias_risks",
+   "gold": 1,
+   "pred": 1,
+   "borderline": true,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "lmstudio-community/gemma-4-E4B-it-MLX-6bit",
+   "element": "training_data",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "lmstudio-community/gemma-4-E4B-it-MLX-6bit",
+   "element": "evaluation",
+   "gold": 0,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "lmstudio-community/gemma-4-E4B-it-MLX-6bit",
+   "element": "compute_env",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "lmstudio-community/gemma-4-E4B-it-MLX-6bit",
+   "element": "contact",
+   "gold": 1,
+   "pred": 1,
+   "borderline": true,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "SG161222/RealVisXL_V5.0",
+   "element": "intended_use",
+   "gold": 1,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "SG161222/RealVisXL_V5.0",
+   "element": "out_of_scope",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "SG161222/RealVisXL_V5.0",
+   "element": "limitations",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "SG161222/RealVisXL_V5.0",
+   "element": "bias_risks",
+   "gold": 0,
+   "pred": 0,
+   "borderline": true,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "SG161222/RealVisXL_V5.0",
+   "element": "training_data",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "SG161222/RealVisXL_V5.0",
+   "element": "evaluation",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "SG161222/RealVisXL_V5.0",
+   "element": "compute_env",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "SG161222/RealVisXL_V5.0",
+   "element": "contact",
+   "gold": 0,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "amazon/chronos-bolt-tiny",
+   "element": "intended_use",
+   "gold": 1,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "amazon/chronos-bolt-tiny",
+   "element": "out_of_scope",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "amazon/chronos-bolt-tiny",
+   "element": "limitations",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "amazon/chronos-bolt-tiny",
+   "element": "bias_risks",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "amazon/chronos-bolt-tiny",
+   "element": "training_data",
+   "gold": 1,
+   "pred": 1,
+   "borderline": true,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "amazon/chronos-bolt-tiny",
+   "element": "evaluation",
+   "gold": 1,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "amazon/chronos-bolt-tiny",
+   "element": "compute_env",
+   "gold": 0,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "amazon/chronos-bolt-tiny",
+   "element": "contact",
+   "gold": 0,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "amazon/chronos-t5-small",
+   "element": "intended_use",
+   "gold": 0,
+   "pred": 0,
+   "borderline": true,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "amazon/chronos-t5-small",
+   "element": "out_of_scope",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "amazon/chronos-t5-small",
+   "element": "limitations",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "amazon/chronos-t5-small",
+   "element": "bias_risks",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "amazon/chronos-t5-small",
+   "element": "training_data",
+   "gold": 1,
+   "pred": 1,
+   "borderline": true,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "amazon/chronos-t5-small",
+   "element": "evaluation",
+   "gold": 0,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "amazon/chronos-t5-small",
+   "element": "compute_env",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "amazon/chronos-t5-small",
+   "element": "contact",
+   "gold": 1,
+   "pred": 0,
+   "borderline": true,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "facebook/w2v-bert-2.0",
+   "element": "intended_use",
+   "gold": 1,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "facebook/w2v-bert-2.0",
+   "element": "out_of_scope",
+   "gold": 0,
+   "pred": 0,
+   "borderline": true,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "facebook/w2v-bert-2.0",
+   "element": "limitations",
+   "gold": 1,
+   "pred": 0,
+   "borderline": true,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "facebook/w2v-bert-2.0",
+   "element": "bias_risks",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "facebook/w2v-bert-2.0",
+   "element": "training_data",
+   "gold": 1,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "facebook/w2v-bert-2.0",
+   "element": "evaluation",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "facebook/w2v-bert-2.0",
+   "element": "compute_env",
+   "gold": 0,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "facebook/w2v-bert-2.0",
+   "element": "contact",
+   "gold": 0,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "tencent/Hy3",
+   "element": "intended_use",
+   "gold": 1,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "tencent/Hy3",
+   "element": "out_of_scope",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "tencent/Hy3",
+   "element": "limitations",
+   "gold": 0,
+   "pred": 0,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "tencent/Hy3",
+   "element": "bias_risks",
+   "gold": 0,
+   "pred": 0,
+   "borderline": true,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "tencent/Hy3",
+   "element": "training_data",
+   "gold": 0,
+   "pred": 1,
+   "borderline": true,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "tencent/Hy3",
+   "element": "evaluation",
+   "gold": 1,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "tencent/Hy3",
+   "element": "compute_env",
+   "gold": 0,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  },
+  {
+   "id": "tencent/Hy3",
+   "element": "contact",
+   "gold": 1,
+   "pred": 1,
+   "borderline": false,
+   "quote": "",
+   "flag": ""
+  }
+ ]
+}
